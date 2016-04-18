@@ -1,0 +1,120 @@
+﻿.Prod_caption {
+	position:absolute;
+	background-image: url(http://localhost:50127/MobileOilSite/Product_Images/banner-text.png);
+	/*background-image: url("img_tree.png");*/
+	
+    background-repeat: no-repeat;
+    background-position: center Bottom; 
+	padding-top:20px;
+	margin-bottom:0px;
+}
+.Prod_caption h2 {
+	font-size:30px;
+	text-align:center;
+	color:White;
+	padding:0px 0px;
+	margin:0px;
+	font-family: 'Lato', sans-serif;
+	text-shadow:0 0 0;
+}
+.indicators {
+	display:none;
+}
+.Prod_caption {
+	bottom: 0;
+	left: 0;
+	padding-bottom: 20px;
+	right: 0;
+}
+.Button_id
+{
+    color:White;
+    background-color:#58595B;
+    padding-top:5px;
+    padding-bottom:5px;      
+}
+p
+{
+    line-height:1.4em;  
+    font-size:16px;  
+}
+         
+/*
+.prduct-short-destils h4 {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align:center;
+	padding:0px -10px;
+	font-weight:700;
+}
+.prduct-short-destils-hover {
+	margin: 0 10px 0 0;
+	text-align: center;
+}
+.product-row:hover .prduct-short-destils-hover {
+	opacity: 1;
+}
+.prduct-short-destils-img {
+	position: relative;
+}
+.prduct-short-destils-img img {
+	margin: 0 10px 0 0 ;
+	width: 99.8%;
+}
+.prduct-short-destils-hover {
+	background: rgba(0, 0, 0, 0) url() repeat scroll 0 0; 
+	
+	background-image: url(http://localhost:50127/MobileOilSite/Product_Images/prodect-hover.png);
+    background-repeat: repeat;
+    background-position: 0 0; 
+    
+	height:100%;
+	margin: 0 10px 0 0px;
+	position: absolute;
+	text-align: center;
+	opacity: 0;
+	top: 0px;
+	vertical-align: middle;
+	width: 99%;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.prduct-short-destils-hover > div {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.prduct-short-destils-hover > div > div {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+.prduct-short-destils-hover h4 {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0 0;
+	margin: 0 0 0;
+}
+.prduct-short-destils-hover a {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	font-weight:700;
+}
+.inner-recommed-poduct .prduct-short-destils-hover a {
+	color: #e9ca17;
+}
+.prduct-short-destils-hover {
+	margin: 0;
+	width: 100%;
+} */

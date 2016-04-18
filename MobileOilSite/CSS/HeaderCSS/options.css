@@ -1,0 +1,196 @@
+#change_wrap_div{ background-repeat: repeat} body{ background-repeat: repeat-y} #footer, #sub-footer{ background-repeat: repeat-y} .page-title-inner .page-title {color: #fffafa}.page-title-inner .subtitle {color: #fffafa}
+	.tabs dd a, .tabs li a {
+	border-right: 1px solid #ffffff;
+	}
+
+    article.post h3.entry-title a:hover,
+    .share-icons a:hover,
+    #comments h3 span,
+    .pages-nav a,
+    .entry-thumb a.link:before,
+    .tabs.horisontal.no-styling dd.active a,
+    .pricing-table .title .icon,
+    .post-carousel-item .icon-format,
+    .featured-news h3.entry-title a:hover,
+    article.mini-news .box-name a:hover,
+    .skills_widget .start-label, .skills_widget .finish-label,
+    .folio-item .box-name:first-letter,
+    .folio-item .box-name a:first-letter,
+    .folio-item .box-name a .animated,
+    .testimonials_item .box-name:first-letter,
+    .instagram-autor .box-name:first-letter,
+    .recent-posts-list .entry-title:first-letter,
+    .recent-posts-list .entry-title .animated,
+    .tags-widget a:hover,
+    ul.products li.product .amount,
+    .widget_shopping_cart .amount,
+    .woocommerce p.stars a:hover:before, .woocommerce-page p.stars a:hover:before, .woocommerce p.stars a:focus:before, .woocommerce-page p.stars a:focus:before,
+    .woocommerce p.stars a.active:before, .woocommerce-page p.stars a.active:before,
+    a:hover, a:focus,
+    .crumina-slider-wrap .item-content .icon-format,
+    .crumina-slider-wrap .entry-title a:hover,
+	.news-row .entry-thumb .mini-comm-count:before,
+	.hover-box .more-link:before,
+	.hover-box .zoom-link:before,
+	.hover-box .like:before, .woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before
+
+    {
+    color: #dbe11d;
+    }
+
+    #top-panel .login-header .avatar,
+    article .entry-thumb .comments-link:hover,
+    article.post .link-read-more,
+    .light,
+    .lang-sel ul > li:hover a,
+    .breadcrumbs,
+    .back-to-top,
+    .filter li a:after,
+    #wp-submit.button-primary, #commentform #submit,
+    .pricetable-featured .pricing-table .title,
+    .folio-dopinfo i,
+    .team_member_box .text:before,
+    article.mini-news .mini-comm-count,
+    .feature-box .back,
+    .recent-block .tabs.horisontal dd a:after,
+    .timelime .timeline-item .timeline-title:after,
+    div.progress .meter,
+    .highlight,
+    .quantity .plus, #content .quantity .plus,
+    .quantity .minus, #content .quantity .minus:hover,
+    .pricing-table .cta-button .button.red,
+    .crumina-slider-wrap .active .click-section,
+	.tabs.vertical dd.active a,
+	.tabs.vertical dd a .icon,
+	.tabs.vertical dd.active .icon,
+	.top-menu-button.active, article .entry-thumb .comments-link:hover .comments-link:hover:before
+    {
+    background-color: #dbe11d;
+    }
+
+	article .entry-thumb .comments-link:hover:before {
+    border-color: #dbe11d transparent transparent transparent;
+	background-color: #dbe11d transparent transparent transparent;
+    }
+
+    article .entry-thumb .comments-link
+	{
+    background: #dbe11d;
+    background: rgba(219,225,29, 0.7);
+    }
+
+
+    .crumina-slider-wrap .cat-name
+	{
+    background: #dbe11d;
+    background: rgba(219,225,29, 0.6);
+    }
+
+    .crumina-slider-wrap .cat-name:hover {
+    background: #dbe11d;
+    background: rgba(219,225,29, 1);
+    }
+
+	article .entry-thumb .comments-link:before {
+    border-color: #dbe11d transparent transparent transparent;
+    border-color: rgba(219,225,29, 0.7) transparent transparent transparent;
+    }
+
+	article .entry-thumb .comments-link:hover:before {
+	border-color: #dbe11d transparent transparent transparent;
+	border-color: rgba(219,225,29, 0.7) transparent transparent transparent;
+	}
+
+    #crum-slider .item .item-content-metro {
+    background: #dbe11d;
+    background: rgba(219,225,29, 0.87);
+    }
+
+    .author-photo img {
+    border-bottom: 3px solid #dbe11d; }
+
+    #footer .soc-icons a:hover,
+    .charts-box .percent
+    {
+    border-bottom: 2px solid #dbe11d; }
+
+    #wp-submit.button-primary, #commentform #submit {box-shadow:none !important;}
+
+    .feature-block-image .picture:before {
+    border-color: transparent transparent transparent #dbe11d;
+    }
+
+    div.bbp-template-notice
+    {border-left: 3px solid #dbe11d !important;}
+
+    .woocommerce-info {
+    border-top: 3px solid #dbe11d    }
+
+    .pricing-table .cta-button .button.red {box-shadow:none !important;}
+
+
+    .twitter-row .icon,
+    .page-numbers li:hover a,
+    .page-numbers li a:focus,
+    .page-numbers li.current a,
+    .page-numbers li.current a:hover, .page-numbers li.current a:focus,
+    .page-numbers li span:hover a,
+    .page-numbers li span a:focus,
+    .page-numbers li span.current,
+    .tabs.horisontal dd a,
+    .tabs.horisontal li a,
+    .tabs.vertical dd a,
+    .tabs.vertical li a,
+    .button, #wp-submit, #commentform #submit,
+    .map-holder .box-text,
+    .accodion_module .title,
+    .contacts-widget,
+    .tweet-list,
+    .twitter-row .icon,
+    .products  .product .button:before,
+    ul.products li.product del .amount,
+    .quantity .plus, #content .quantity .plus:hover,
+    .quantity .minus, #content .quantity .minus
+
+
+    {background-color:#414042;}
+
+
+    .bbp-topic-meta a,
+    td.product-remove a:hover,
+    .product-ordering a:hover,
+    .summary .price,
+    a
+    {color:#414042;}
+
+    .pricing-table:hover
+    {border: 2px solid #414042 }
+
+    .pricing-table:hover::before {border-color: transparent #414042 transparent transparent;}
+
+    #bbpress-forums ul.bbp-forums,#bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-replies {
+    border-top: 3px solid #414042;
+    }
+    div.bbp-template-notice.info
+
+    {border-left: 3px solid #414042 !important;}
+
+
+    #crum-slider .item.even .item-content-metro {
+    background: #414042;
+    background: rgba(65,64,66, 0.87);
+
+    }
+
+    .button, #wp-submit, #commentform #submit, .pricing-table .cta-button .button.red {box-shadow:none !important;}
+
+
+
+
+
+
+
+
+
+
+

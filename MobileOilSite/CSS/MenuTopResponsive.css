@@ -1,0 +1,238 @@
+﻿.pushmenu { /*this is the nav*/
+  background: #3c3933;
+  font-family: Arial, Helvetics, sans-serif;
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+  position:fixed;
+}
+
+ .MenuBarLogo
+    {
+        margin-top:10px;
+    } 
+    
+.pushmenu h3 {
+  color: #cbbfad;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 0;
+  background: #282522;    
+  height: 40px;
+}
+
+.pushmenu a {
+  display: block; /* drops the nav vertically*/
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-top: 1px solid #56544e;
+  border-bottom: 1px solid #312e2a;
+  padding: 14px;
+}
+
+.pushmenu a:hover {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a9e4f7 0%, #0fb4e7 38%) repeat scroll 0 0;
+  text-decoration:none;
+}
+
+.pushmenu a:active {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a9e4f7 0%, #0fb4e7 38%) repeat scroll 0 0;
+  color: #fff;
+  text-decoration:none;
+}
+
+.pushmenu-left {
+  left: -240px;
+
+}
+
+.pushmenu-left.pushmenu-open {
+  left: 0;
+}
+
+.pushmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.pushmenu-push-toright {
+  left: 240px;
+}
+
+/*Transition*/
+.pushmenu, .pushmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+#nav_list {
+  background: url(http://www.onlywebpro.com/demo/jquery/icon_nav.png) no-repeat left top;
+  cursor: pointer;
+  height: 27px;
+  width: 33px;
+  text-indent: -99999em;
+}
+
+nav-list.active {
+  background-position: -33px top;
+}
+
+
+#hideshow
+{
+    display:none;
+}
+
+
+ .headerbg
+        {
+            background-position: center center;
+            background-image: url('../images/blue-gradient-background.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color:White;
+        }
+.headerbg a
+{
+    color:White !important;
+}
+.toolbox
+{
+     margin-top: 20px; float: left; margin-left: -10%;
+}
+.menubar
+{
+    background-color: #323232;
+}
+
+#nav_menu
+{
+    overflow:scroll;
+    text-align:left;
+}
+#nav_menu a
+{
+padding-left: 50px;
+}
+#nav_menu a div
+{
+    display:none;
+}
+
+#nav_menu div
+{
+    background-color:#3C3933;
+}
+#nav_menu div a
+{
+    width:100%;    
+    background-color:#3C3933;
+}
+#setupAnch .divA,#inventoryAnch .divA,#menuAnch .divA
+{
+    display:none;
+}
+@media only screen  
+and (max-width: 900px)
+and (-webkit-min-device-pixel-ratio: 2)   
+{
+     .MenuBarLogo
+    {
+        
+    }
+    #hideshow
+    {
+    display:block;
+    }
+    #drop-nav
+    {
+        display:none;
+    }
+    .headerbg
+    {
+        background-image:url('');
+       
+    }    
+    .toolbox
+    {
+      margin-top: 90px; 
+      float: right;
+      right:0;
+      width:88%;      
+      text-align:right;
+      position:absolute;      
+      margin-left:0;
+    }
+    .menubar
+    {
+   /*( background-color: transparent;
+    background-image: url('../images/blue-gradient-background.png'); */
+    }
+}
+@media screen 
+and (max-width: 900px)
+{
+    .MenuBarLogo
+    {
+      
+    }
+    #hideshow
+    {
+    display:block;
+    }
+    #drop-nav
+    {
+        display:none;
+    }
+    .headerbg
+    {
+        background-image:url('');
+       
+    }   
+    .toolbox
+    {
+     margin-top: 90px; 
+     float: right;
+      right:0;
+      width:88%;      
+      text-align:right;
+      position:absolute;      
+    margin-left:0;
+    }
+    .menubar
+    {
+  /*    background-color: transparent;
+  background-image: url('../images/blue-gradient-background.png'); */
+    }
+}
+
+@media only screen  
+and (min-width: 901px) and  (max-width: 1260px)
+and (-webkit-min-device-pixel-ratio: 2)   
+{
+    .menurespclass
+    {
+       width:100%;
+    }
+    ul, li, #lastli
+    {  
+    }
+}
+
+@media screen 
+and (min-width: 901px) and (max-width: 1260px)
+{
+   .menurespclass
+    {
+       width:100%;
+    } 
+  ul, li,  #lastli 
+    {
+    }
+}
