@@ -6,6 +6,12 @@
 <%@ Register Src="ClientsUC.ascx" TagName="ClientsUC" TagPrefix="uc1" %>
 <%@ Register Src="ContactUC.ascx" TagName="ContactsUC" TagPrefix="uc4" %>
 <%@ Register Src="StatisticsUC.ascx" TagName="StatisticsUC" TagPrefix="uc5" %>
+<%@ Register Src="Products_Default.ascx" TagName="Products_DefaultUC" TagPrefix="uc6" %>
+
+
+
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
         @media screen and (max-width: 900px)
@@ -235,7 +241,7 @@
     <%--Projects User Control--%>
     <center>
         <div style="float: left; height: auto; width: 100%; left: 0px;">
-            <uc3:ProjectsUC ID="ProjectsUC1" runat="server" />
+            <uc6:Products_DefaultUC ID="Products_DefaultUC1" runat="server" />
         </div>
     </center>
     <%--ABOUT ON HOME PAGE--%>
