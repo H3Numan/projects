@@ -62,8 +62,13 @@
         </div>
     </div>
 
+
     <div style="float:right; margin-right:30px;">
-        <a href="Products_Page.aspx"> < View All Products > </a>
+        <a href="Products_Page.aspx"> 
+            <b>
+                < View All Products >
+            </b> 
+        </a>
     </div>
    
 </div>

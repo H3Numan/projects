@@ -197,6 +197,15 @@
                     <img src="SliderImages/Slide3.jpg" alt="" style="width: 100%; height: 100%;" />
                     <div data-u="caption" data-t="0" style="position: absolute; top: 0px; left: 50px;
                         width: 545px; height: 350px;">
+                    <div style="position: absolute; top: 30px; left: 10px; width: 480px; height: 120px;
+                        font-size: 56px; color: #ffffff; line-height: 60px;" data-t="1">
+                        BYCO FUELS <br /> A NATION
+                    </div>
+                    <div style="position: absolute; top: 380px; left: 10px; width: 720px; height: 120px;
+                        font-size: 30px; color: #ffffff; line-height: 38px;" data-t="2">
+                        We are Engaged in Oil Refining, Petroleum Marketing, <br />
+                        Petroleum Infrastructure and Logistics
+                    </div>
                         <img src="SliderImages/WAHEED3.png" data-u="caption" data-t="2" style="position: absolute;
                             top: 180px; left: 850px; width: 300px; height: 125px;" alt="" />
                          <img src="SliderImages/WAHEED4.png" data-u="caption" data-t="4" style="position: absolute;
@@ -212,7 +221,7 @@
                     <div style="position: absolute; top: 4px; left: 45px; width: 379px; height: 213px;
                         overflow: hidden;">
                         <img src="Product_Images/WAHEED.gif" data-u="caption" data-t="6" style="position: absolute;
-                            top: 0px; left: 0px; width: 300px; height: 125px;"  alt=""/>
+                            top: 0px; left: 0px; width: 300px; height: 115px;"  alt=""/>
                         <%--<img src="Product_Images/WAHEED.gif" data-u="caption" data-t="7" style="position: absolute;
                             top: 0px; left: 379px; width: 379px; height: 213px;" alt="" />--%>
                     </div>
@@ -245,7 +254,7 @@
         </div>
     </center>
     <%--ABOUT ON HOME PAGE--%>
-    <div style="height: auto; float: left; width: 100%;" id="Div1">
+    <div style="height: auto; float: left; width: 100%; background-color:#F7F7F7" id="Div1">
         <%-- <div id="comp-igahubrlbg" class="s18bg">
                                                 </div>--%>
         <div id="Div2" class="col-lg-10 col-sm-10 col-md-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
@@ -296,13 +305,13 @@
     </center>
     <%--Clients USER Control--%>
     <center>
-        <div style="float: left; height: auto; width: 100%; background-color: rgb(247, 247, 247);">
+        <div style="float: left; height: auto; width: 100%; ">
             <uc1:ClientsUC ID="ClientsUC1" runat="server" />
         </div>
     </center>
     <%--Contact User Control--%>
     <a id="Contact">
-        <div style="float: left; background-color: white; height: auto; width: 100%;">
+        <div style="float: left; height: auto; width: 100%; ">
             <uc4:ContactsUC ID="ContactsUC1" runat="server" />
         </div>
     </a>

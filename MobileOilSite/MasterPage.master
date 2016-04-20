@@ -382,7 +382,7 @@
                                 ABOUT US
                             </div>
                         </a></li>
-                        <li style="float: left"><a href="Projects.aspx">
+                        <li style="float: left"><a href="Products_Page.aspx">
                             <div style="margin-left: 10px; margin-top: ;">
                                 <img src="Product_Images/HeaderImages/Prodcts2.png" style="width: 42px;" />
                             </div>
@@ -390,7 +390,7 @@
                                 PRODUCTS
                             </div>
                         </a></li>
-                        <%--<li style="float: left"><a href="http://localhost/mobiloil/Default.aspx/#Contact">--%>
+                       
                         <li style="float: left"><a href="#Contact">
                             <div style="margin-left: 10px; margin-top: ;">
                                 <img src="Product_Images/HeaderImages/ContactUs1.png" style="width: 51px;" />

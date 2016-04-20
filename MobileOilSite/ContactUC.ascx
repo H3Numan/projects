@@ -34,8 +34,7 @@
         }
     }
 </style>
-<div style="background-color: rgb(255, 255, 255); top: 0px; width: 100%; background-color: white;
-    clip: rect(0px, 100%);" id="" class="s10background">
+<div style="background-color: #F7F7F7; width: 100%; height:auto; float:left;clip: rect(0px, 100%);">
     <div id="comp-ig69o2mlbackgroundMedia" style="overflow: hidden; width: 100%; left: 0px;">
     </div>
     <center>
@@ -50,8 +49,33 @@
         </div>
     </center>
     <div class="row">
-        <div class="col-lg-7 col-sm-7 col-md-7 col-xs-7" style="top: 50px;">
-            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" style="">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="top: 50px;">
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" style="">
+                <div>
+                    <h5 style="line-height: 0.9em;" class="font_5">
+                        E-Mail</h5>
+                </div>
+                <div>
+                    <p style="line-height: 1.5em;" class="font_7">
+                        <span style="line-height: 1.5em;">
+                            <br />
+                            Doulat@fsd.comsats.net.pk
+                            <br />
+                            waheedagencies@gmail.com
+                            <br />
+                            <b>Distributors:</b>
+                            <br />
+                            Byco Petroleum Pakistan Ltd.
+                            <%-- To apply for a job with Sphere Constuctions, please
+                        send a cover letter together with your C.V. to: info@mysite.com--%>
+                        </span>
+                    </p>
+                </div>
+               
+               
+               
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 floatnone" style="">
                 <div>
                     <h5 style="line-height: 0.9em;" class="font_5">
                         Head Office</h5>
@@ -73,33 +97,10 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floatnone" style="">
-                <div>
-                    <h5 style="line-height: 0.9em;" class="font_5">
-                        E-Mail</h5>
-                </div>
-                <div>
-                    <p style="line-height: 1.5em;" class="font_7">
-                        <span style="line-height: 1.5em;">
-                            <br />
-                            Doulat@fsd.comsats.net.pk
-                            <br />
-                            waheedagencies@gmail.com
-                            <br />
-                            <b>Distributors:</b>
-                            <br />
-                            Byco Petroleum Pakistan Ltd.
-                            <%-- To apply for a job with Sphere Constuctions, please
-                        send a cover letter together with your C.V. to: info@mysite.com--%>
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <%--<div style="margin-left: 10px; margin-top: 5px; width: 100%; height: 255px; ">--%>
-            <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                
                     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-
                     <div style='overflow: hidden; height: 255px; width: 100%; border: 1px solid Black'>
                         <div id='gmap_canvas' style='height: 255px; width: 100%; border: 1px solid Black'>
                         </div>
@@ -117,13 +118,9 @@
                         </style>
                     </div>
                     <script type='text/javascript'>     function init_map() { var myOptions = { zoom: 10, center: new google.maps.LatLng(51.522306672333464, -0.09273937910154739), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(31.4200863, 73.1173559) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Title</strong><br>Susan Road, Faisalabad<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
-                
-
-                <%--<img src="mysite-1_files/googleMap_data/vt_005.png" style="border: 1px solid Black"
-                width="98%" height="255px" />--%>
             </div>
         </div>
-        <div class="col-lg-5 col-sm-5 col-md-5 col-xs-5" style="top: 50px;">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" style="top: 50px;">
             <div>
                 <h5 style="line-height: 0.9em;" class="font_5">
                     Send Enquiry

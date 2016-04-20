@@ -31,9 +31,9 @@
 
 <%--ABOUT ON HOME PAGE--%>
 
- <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 col-lg-offset-2 col-sm-offset-2 col-md-offset-2 col-xs-offset-2" style="top:30px;">
+ <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 col-lg-offset-2 col-sm-offset-2 col-md-offset-2 col-xs-offset-2" style="margin-top:30px;">
     
-    <div style="width: 100%; height:;" class="s18" id="comp-igahubrl">
+    <div style="width: 100%;" class="s18" id="comp-igahubrl">
         <div id="comp-igahubrlinlineContent" class="">
             <div style="top: 56px;" class="s1" id="comp-ig97s46y">
                 <h2 class="font_2">
@@ -73,7 +73,7 @@
 
  </div>
 
-    <div class="s10" style="maring-top:30px;">
+    <div class="s10" style="maring-top:30px; background-color: #F7F7F7;">
           <uc4:ContactsUC ID="ContactsUC1" runat="server" />
     </div>
 
